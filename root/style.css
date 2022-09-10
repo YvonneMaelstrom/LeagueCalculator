@@ -1,0 +1,270 @@
+body {background-color: #105b81}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 12px;
+    text-align: center;
+    background: #105b81;
+    color: #f2ae27;
+    font-size: 40px;
+    font-style: serif;
+}
+
+.main-container {
+    display: grid;
+    grid: 740px / auto auto auto;
+    padding: 5px;
+    grid-gap: 9px;
+    grid-template-columns: 25% 40% 34%;
+}
+
+.column-1 {
+    background: #58abd1;
+    display: grid;
+    grid: 400px / auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    border-color: #000000;
+    border: 4px;
+    border-style: solid;
+    padding: 1px;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.stat-header {
+    color: #000000;
+    border: solid 2px;
+    font-size: 40px;
+    grid-area: 1 / 1 / span 1 / span 3;
+    background-color: #56a1c4;
+}
+
+.stat-health {
+    grid-area: 2 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-health2 {
+    grid-area: 2 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-mana {
+    grid-area: 3 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-mana2 {
+    grid-area: 3 / 2 / span 1/ span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-hpregen {
+    grid-area: 4 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-hpregen2 {
+    grid-area: 4 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-manaregen {
+    grid-area: 5 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-manaregen2 {
+    grid-area: 5 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-armor {
+    grid-area: 6 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-armor2 {
+    grid-area: 6 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-magicres {
+    grid-area: 7 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-magicres2 {
+    grid-area: 7 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-attack {
+    grid-area: 8 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-attack2 {
+    grid-area: 8 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-abilitypow {
+    grid-area: 9 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-abilitypow2 {
+    grid-area: 9 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-aspd {
+    grid-area: 10 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-aspd2 {
+    grid-area: 10 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-movespeed {
+    grid-area: 11 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-movespeed2 {
+    grid-area: 11 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-omnivamp {
+    grid-area: 12 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-omnivamp2 {
+    grid-area: 12 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-lifesteal {
+    grid-area: 13 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-lifesteal2 {
+    grid-area: 13 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-abilityhaste {
+    grid-area: 14 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-abilityhaste2 {
+    grid-area: 14 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-magicpen {
+    grid-area: 15 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-magicpen2 {
+    grid-area: 15 / 2 / span 1 / span 1;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-magicpen3 {
+    grid-area: 15 / 3 / span 1 / span 1;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-armorpen {
+    grid-area: 16 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-armorpen2 {
+    grid-area: 16 / 2 / span 1 / span 1;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-armorpen3 {
+    grid-area: 16 / 3 / span 1 / span 1;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-tenacity {
+    grid-area: 17 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-tenacity2 {
+    grid-area: 17 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-slowres {
+    grid-area: 18 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-slowres2 {
+    grid-area: 18 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-critchance {
+    grid-area: 19 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-critchance2 {
+    grid-area: 19 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-critdmg {
+    grid-area: 20 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-critdmg2 {
+    grid-area: 20 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-attackrange {
+    grid-area: 21 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-attackrange2 {
+    grid-area: 21 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+.stat-shielding {
+    grid-area: 22 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-shielding2 {
+    grid-area: 22 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #99cce4;
+}
+.stat-healing {
+    grid-area: 23 / 1 / span 1 / span 1;
+    border: solid 1px;
+}
+.stat-healing2 {
+    grid-area: 23 / 2 / span 1 / span 2;
+    border: solid 1px;
+    background: #69b9df;
+}
+
+.column-2 {
+    background: #c05f77;
+    text-align: center;
+    border-color: #000000;
+    border: 4px;
+    border-style: solid;
+}
+
+.column-3 {
+    background: #6e74cc;
+    text-align: center;
+    border-color: #000000;
+    border: 4px;
+    border-style: solid;
+}
